@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vimal Chaudhary - Android & AI App Developer</title>
+    <meta name="description" content="Vimal Chaudhary - Android & AI App Developer portfolio showcasing skills, projects, and contact information.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Popup fade effect */
+        .popup {
+            display: none;
+            opacity: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            transition: opacity 0.3s ease;
+            z-index: 1000;
+        }
+
+        .popup.show {
+            display: flex;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+        <h1>Vimal Chaudhary</h1>
+
+        <!-- Hamburger Icon -->
+        <div class="menu-toggle" aria-label="Toggle navigation menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <header id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Vimal Chaudhary</h1>
+            <p class="title">Android & AI App Developer</p>
+            <p class="tagline">Building smart, user-friendly mobile apps with Kotlin, and AI.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="assets/resume.pdf" download="Vimal_Chaudhary_Resume.pdf" class="btn secondary-btn">Download Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-card">
+                <p>Hello! I'm Vimal Chaudhary, a passionate Android & AI App Developer. My journey in the world of code
+                    began with a fascination for creating intelligent and intuitive applications. I specialize in
+                    crafting robust Android applications using Kotlin and Jetpack Compose, always seeking to integrate
+                    cutting-edge AI solutions to enhance user experience and solve real-world problems. My expertise
+                    spans across app development, machine learning, and data structures and algorithms, allowing me to
+                    build comprehensive and efficient solutions from the ground up. I'm constantly exploring new
+                    technologies and am dedicated to lifelong learning in this ever-evolving field.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-android"></i>
+                    <h3>Kotlin & Android</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Jetpack Compose</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <h3>Firebase</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-dev"></i>
+                    <h3>C++</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI Integration</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-sitemap"></i>
+                    <h3>DSA</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Generative AI</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-database"></i>
+                    <h3>Vector Database</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://www.managedoutsource.com/wp-content/uploads/2022/11/ebook-applications.jpg"
+                        alt="EBook App Project Screenshot">
+                    <h3>EBook App</h3>
+                    <p>A comprehensive e-book application with user-friendly interface and seamless reading experience.</p>
+                    <a href="https://github.com/chaudharyy7/bcaEbook" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://learnerbits.com/wp-content/uploads/2023/06/dsa.png" alt="DSA Assistant App Screenshot">
+                    <h3>DSA Assistant App</h3>
+                    <p>An interactive app to help users learn and practice Data Structures and Algorithms.</p>
+                    <a href="https://github.com/chaudharyy7/DSA-Assistant" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="real.jpg" alt="Real Estate App Screenshot">
+                    <h3>Real EState App</h3>
+                    <p>Real Estate App using Kotlin and Jetpack Compose.</p>
+                    <a href="https://github.com/chaudharyy7/real_estate_app/" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://www.creativemindcg.com/wp-content/uploads/2025/01/iStock-1503858430-AI.jpg"
+                        alt="Webo Go App Screenshot">
+                    <h3>Webo Go</h3>
+                    <p>An efficient and automated website builder by prompt.</p>
+                    <a href="https://github.com/chaudharyy7/Website-Builder" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://user-images.githubusercontent.com/71784734/209449021-e24d9911-c4b7-4aee-ab8b-faa9f46cd361.png"
+                        alt="BharatCheck App Screenshot">
+                    <h3>BharatCheck App</h3>
+                    <p>A national information and verification application.</p>
+                    <a href="https://github.com/chaudharyy7/bharat-check-verify_news_here" class="github-btn">View on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://echoinnovateit.com/wp-content/uploads/2021/07/Food-Recipe-App-Development-Company.png"
+                        alt="Recipe App Screenshot">
+                    <h3>Recipe App</h3>
+                    <p>An app that helps you cook your favorite and delicious food.</p>
+                    <a href="https://github.com/chaudharyy7/RecipeApp" class="github-btn">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== HACKATHONS ===== -->
+    <section id="hackathons" class="hackathons-section">
+        <div class="container">
+            <h2>Hackathons & Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Hackathon Lead - Teckathon</h3>
+                    <p class="date">10, 2024</p>
+                    <p>A smart agriculture companion that helps farmers increase productivity by providing real-time
+                        crop management, weather updates, market prices, and expert guidance. It empowers data-driven
+                        decisions and connects farmers with modern farming techniques for better yield and income.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Smart India Hackathon</h3>
+                    <p class="date">08, 2024</p>
+                    <p>Participated in the Smart India Hackathon, a national-level innovation challenge, where I
+                        contributed to developing practical, tech-driven solutions for real-world problems. Gained
+                        hands-on experience in problem-solving, teamwork, and rapid prototyping, showcasing my skills in
+                        app development and innovation.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Naukri.com - DSA Hackathon</h3>
+                    <p class="date">05, 2024</p>
+                    <p>Participated in the Naukri.com DSA Hackathon, a competitive coding event focused on data
+                        structures and algorithms. Solved challenging problems under time constraints, enhancing my
+                        problem-solving, coding speed, and algorithmic skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group"><input type="text" id="name" name="from_name" required><label
+                        for="name">Name</label></div>
+                <div class="form-group"><input type="email" id="email" name="reply_to" required><label
+                        for="email">Email</label></div>
+                <div class="form-group"><textarea id="message" name="message" rows="5" required></textarea><label
+                        for="message">Message</label></div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+
+            <!-- Popup -->
+            <div id="popup" class="popup" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+                <div class="popup-content">
+                    <span class="close-btn" aria-label="Close">&times;</span>
+                    <h3 id="popup-title">✅ Message Sent!</h3>
+                    <p>Thank you for reaching out. I’ll get back to you soon.</p>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/vimal-chaudhary-993303326/" target="_blank" class="social-icon"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/chaudharyy7" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:vimal07chaudhary@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Vimal Chaudhary. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("o-tZi4IGxqS08O-Fd"); // 🔑 Your Public Key
+        })();
+
+        const form = document.querySelector(".contact-form");
+        const popup = document.getElementById("popup");
+        const closeBtn = document.querySelector(".close-btn");
+
+        form.addEventListener("submit", function (e) {
+            e.preventDefault();
+            emailjs.sendForm("deadmad", "template_m2ge8gr", form)
+                .then(() => {
+                    form.reset();
+                    popup.classList.add("show");
+                }, (error) => {
+                    alert("❌ Failed to send message: " + error.text);
+                });
+        });
+
+        closeBtn.addEventListener("click", () => popup.classList.remove("show"));
+        window.addEventListener("click", (e) => {
+            if (e.target === popup) popup.classList.remove("show");
+        });
+
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navLinks = document.querySelector(".navbar ul");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+
+</html>
