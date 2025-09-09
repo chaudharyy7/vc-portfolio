@@ -26,6 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
         sectionObserver.observe(section);
     });
 
+    // Hamburger toggle for mobile menu
+   const menuToggle = document.querySelector(".menu-toggle");
+   const navLinks = document.querySelector(".navbar ul");
+
+   menuToggle.addEventListener("click", () => {
+       navLinks.classList.toggle("active");
+   });
+
+
     // Dynamic handling for contact form floating labels (CSS handles most, but this ensures robustness)
     const formInputs = document.querySelectorAll('.form-group input, .form-group textarea');
     formInputs.forEach(input => {
