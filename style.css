@@ -567,7 +567,7 @@ footer p {
 }
 
 /* Responsive Design */
-/* @media (max-width: 992px) {
+@media (max-width: 992px) {
     .hero-section h1 {
         font-size: 3.5rem;
     }
@@ -595,7 +595,7 @@ footer p {
         left: -12px !important;
     }
 
-    .menu-toggle {
+    /* .menu-toggle {
         display: block;
     }
 
