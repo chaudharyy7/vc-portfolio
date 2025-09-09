@@ -68,6 +68,13 @@ body {
     color: #00bfff;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+
 /* Add top spacing because of fixed navbar */
 body {
     margin: 0;
