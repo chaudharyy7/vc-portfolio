@@ -595,7 +595,7 @@ footer p {
         left: -12px !important;
     }
 
-    /* .menu-toggle {
+    .menu-toggle {
         display: block;
     }
 
@@ -618,7 +618,7 @@ footer p {
         margin: 15px 0;
     }
 
-} */
+} 
 
 @media (max-width: 768px) {
     h2 {
